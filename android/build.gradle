@@ -44,6 +44,10 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
     
 }
 
