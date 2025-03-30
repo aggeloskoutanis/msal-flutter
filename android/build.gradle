@@ -32,11 +32,11 @@ android {
 
     namespace "uk.co.moodio.msal_flutter"
 
-    java {
-        toolchain {
-            languageVersion = JavaLanguageVersion.of(17) // Using Java 11 for this project
-        }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
