@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath 'com.android.tools.build:gradle:8.1.4'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -29,6 +29,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 34
+    tasks.register("testClasses")
 
     namespace "uk.co.moodio.msal_flutter"
 
