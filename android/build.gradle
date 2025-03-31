@@ -58,4 +58,6 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.microsoft.identity.client:msal:5.10.2'
+    implementation 'com.google.code.gson:gson:2.12.1'
+
 }
